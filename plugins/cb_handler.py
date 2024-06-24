@@ -68,7 +68,7 @@ async def callback_handler(c: Client, cb: CallbackQuery):
             return
         UPLOAD_TO_DRIVE.update({f"{cb.from_user.id}": True})
         await cb.message.edit(
-            text="Okay I'll upload to drive\nDo you want to rename? Default file name is **[@yashoswalyo]_merged.mkv**",
+            text="Okay I'll upload to drive\nDo you want to rename? Default file name is **[@PanjabiMoviePBX1]_merged.mkv**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
